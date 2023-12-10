@@ -1,0 +1,127 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #FCFDFF;
+    /* width: 100%;S */
+    margin: auto;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 15vh;
+
+}
+
+ul li {
+    display: inline-block;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 20px;
+    text-decoration: none;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #0E4692;
+    text-transform: uppercase;
+
+}
+
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+
+
+main {
+    background-color: aliceblue;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.store {
+    text-align: center;
+    align-items: center;
+    font-size: 50px;
+}
+
+.Barang1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+#Lucu {
+    width: 30vw;
+}
+
+#Lucu img {
+    width: 30vw;
+}
+
+.Barang2 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+#fashion {
+    width: 30vw;
+}
+
+#fashion img {
+    width: 30vw;
+}
+
+
+.AboutUs {
+    background-image: url(../Assets/Homepage.jpeg);
+    background-size: cover;
+    background-position: center;
+    width: auto;
+    /* height: 100vh; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+
+}
+
+
+.Copyright {
+    background-color: white;
+    background-position: center;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: center;
+    display: flex;
+    font-size: 20px;
+
+}
+
+
+@media screen and (max-width:800px) {
+    .navbar {
+        /* Assuming you want to center items within the .navbar */
+        align-items: center;
+    }
+
+    .Barang1, .Barang2{
+        align-items: center;
+    }
+
+}
